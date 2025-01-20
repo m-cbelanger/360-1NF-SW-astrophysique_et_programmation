@@ -24,9 +24,7 @@ Sachant que la constante gravitationnelle universelle est $G$, disponible dans l
 $M = 5.972 \times 10^{24}  kg$ et que le rayon de la terre est $ R =  6 371 km$, 
 
 écrivez le programme qui calcule le module de l'accélération gravitationnelle à la surface de la terre. La formule pour calculer le module du champ gravitationnel à la surface de la terre est: 
-$$
-g = GM/R^2
-$$
+$g = GM/R^2$
 Définir les variables et les constantes, faire le calcul et affichez-le. Les mesures sont en mètre et en kg dans la formule.
 
 

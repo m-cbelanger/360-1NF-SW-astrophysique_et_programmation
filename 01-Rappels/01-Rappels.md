@@ -91,7 +91,7 @@ Il peut être intéressant de faire interagir l'utilisateur avec le code. Il est
 Attention!!
 ```py
 nombre = input("Entrez un nombre: ") # la valeur entrée sera stockée dans la variable nombre, mais sera en format string (str)
-print(nombre * 2) # ceci donnera donc une chapine de caractère avec 2x le nombre écrit côte à côte.
+print(nombre * 2) # ceci donnera donc une chaîne de caractère avec 2x le nombre écrit côte à côte.
 ```
 
 Bonne façon:
@@ -116,7 +116,7 @@ nombre_entier = int(nombre) # nombre_entier vaut alors 4
 | bool()  | Transforme en booléen | bool(36) --> True |
 |||
 
-> Il sera très utile de d'utiliser la conversion vers un nombre lorsqu'on récolte la réponse d'un utilisateur.
+> Il sera très utile de d'utiliser la conversion vers un nombre lorsqu'on récolte la réponse d'un utilisateur, entre autres.
 
 ### Symboles mathématiques
 
