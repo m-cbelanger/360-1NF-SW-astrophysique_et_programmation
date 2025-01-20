@@ -162,7 +162,7 @@ print(f"La distance parcourue par la lumière en {nombre_annees} ans est {distan
 
 ```
 
-### [Exercice variables](exercice_variables.md)
+### [Exercice variables](Exercice_variables.md)
 
 
 
