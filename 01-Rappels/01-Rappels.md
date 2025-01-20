@@ -352,7 +352,7 @@ Les détails de la fonction [linspace](https://numpy.org/doc/2.1/reference/gener
 
 Il existe aussi **arange**:
 
-La fonction numpy.arange (ou np.arange) génère un tableau de nombres selon un intervalle donné et un pas spécifié. Contrairement à np.linspace, elle ne garantit pas un nombre précis de valeurs mais produit une séquence de nombres en fonction du pas.
+La fonction numpy.arange génère un tableau de nombres selon un intervalle donné et un pas spécifié. Contrairement à np.linspace, elle ne garantit pas un nombre précis de valeurs mais produit une séquence de nombres en fonction du pas.
 
 
 ```py
