@@ -201,9 +201,9 @@ print(f"En prenant x qui vaut {x}, on obtient f(x) qui vaut {f(x)}")
 
 Écrivez une fonction qui calcule la force gravitationnelle entre deux objets en fonction de leurs masses et de la distance qui les sépare. La formule utilisée est :
 
-$$
+$
 F = (G \cdot m_1 \cdot m_2) / r^2   
-$$
+$
 
 - Manière 1: passer les valeurs de $m_1$, $m_2$ et $r$ en paramètres pour faire le calcul.
 
@@ -495,9 +495,9 @@ print(f"La somme des nombres de 1 à {n} exclut est {somme}")
 
 Supposons que l'on s'intéresse à la position d'un objet en chute libre et qu'on veuille la hauteur de cet objet à chaque seconde. La formule physique qui correspond à ce besoin est:
 
-$$
+$
 h(t) = h_0-0.5gt^2
-$$
+$
 où 
 
 - $h(t)$ est la hauteur (en mètres)
