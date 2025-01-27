@@ -234,6 +234,9 @@ def force_gravitationnelle2():
 print(f"La force est: {force_gravitationnelle2()} N")
 ```
 
+### [Exercices fonctions](03-Exercices_fonctions.md)
+
+
 
 ## Les_conditions
 
@@ -294,7 +297,7 @@ if age >= 18 and age <= 35:
 
 
 
-
+### [Exercices conditions](04-Exercices_conditions.md)
 
 
 
@@ -424,7 +427,7 @@ print(temperatures_liste)
 
 
 
-
+### [Exercices listes](05-Exercices_listes.md)
 
 
 
@@ -575,6 +578,13 @@ while mesure1 <= mesure2:
 
 Le print nous permet de voir que la boucle est infinie, mais s'il n'y en n'a pas, la façon de la détecter est plus subtile.
 
+
+
+### [Exercices boucles](06-Exercices_boucles.md)
+
+
+
+
 ## Les_graphiques
 
 Pour tracer des graphiques, la librairie matplotlib.pyplot demeure d'actualité. 
@@ -687,6 +697,10 @@ plt.show()
 Résultat:
 
 ![sinkx](img/sinkx.png)
+
+
+
+### [Exercices graphiques](07-Exercices_graphiques.md)
 
 
 ## Les_fichiers

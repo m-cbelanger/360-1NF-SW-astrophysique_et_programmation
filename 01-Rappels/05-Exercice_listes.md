@@ -21,7 +21,7 @@ L'amplitude *A* devrait être choisie par l'utilisateur, tout comme la fréquenc
 
 ## Question 2
 
-En fouillant dans la documentation, trouvez et expliquez une différence entre une liste et un array. Faire du code pour démonter cette différence.
+En fouillant dans la documentation, trouvez et expliquez une différence entre une liste et un array. Faire un exemple de code pour démonter cette différence.
 
 
 

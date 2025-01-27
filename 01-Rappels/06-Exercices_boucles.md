@@ -27,6 +27,60 @@ b) Prendre le code de la question a) et bonifiez-la: Ajouter la somme des 3 nomb
 
 c) Prendre le code de la question b) et ajouter la moyenne des nombre au fur et à mesure qu'on en ajoute. Chercher une solution pour que la moyenne soit exacte, c'est-à-dire qu'elle affiche les décimales.
 
+## Question 4
+Voici plusieurs boucles. Testez-les et expliquer ce qui se passe en utilisant les termes appropriés.
 
+```py
+# Boucle 1
+i = 0
+while i < 5:
+    print("Passage dans la boucle")
+
+```
+```py
+# Boucle 2
+i = 0
+while i > 0:
+    i = i + 1
+    print(f"i vaut: {i}")
+
+print(f"La valeur finale de i est {i}")
+```
+
+```py
+# Boucle 3
+i = 0
+while i >= 0 or i <= 10:
+    i = i + 1
+    print(f"i vaut: {i}")
+
+print(f"La valeur finale de i est {i}")
+```
+
+```py
+# Boucle 4
+i = 1
+while i < 0 and i > 10:
+    i = i + 1
+    print(f"i vaut: {i}")
+
+print(f"La valeur finale de i est {i}")
+```
+
+```py
+# Boucle 5
+x = 10
+while x > 0:
+    print("Valeur de x :", x)
+    x += 1
+```
+
+```py
+# Boucle 6
+n = 1
+while n != 10:
+    print("n =", n)
+    n += 2 
+```
 
 [Retour](01-Rappels.md#Les_boucles)
