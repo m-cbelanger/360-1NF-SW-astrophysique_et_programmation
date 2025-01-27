@@ -6,9 +6,7 @@
 
 Pour la partie ci-dessous, faites une fonction qui prend toutes les variables en paramètre sauf $\gamma$. Celle-ci vaut 0.1
 - Ensuite, faire le calcul de la position du ressort selon le mouvement harmonique simple à tout moment *t*. La position *x* du ressort à un moment *t* est donnée par:
-$$
-x(t) = A \cdot e^{-\gamma t} cos(2 \pi f t)
-$$
+$x(t) = A  e^{-\gamma t} cos(2 \pi f t)$
 
 - *x(t)* est la position du ressort à l'instant 
 - *A* est l'amplitude de l'oscillation (en mètres),
