@@ -201,9 +201,7 @@ print(f"En prenant x qui vaut {x}, on obtient f(x) qui vaut {f(x)}")
 
 Écrivez une fonction qui calcule la force gravitationnelle entre deux objets en fonction de leurs masses et de la distance qui les sépare. La formule utilisée est :
 
-$
-F = (G \cdot m_1 \cdot m_2) / r^2   
-$
+$ F = (G \cdot m_1 \cdot m_2) / r^2  $
 
 - Manière 1: passer les valeurs de $m_1$, $m_2$ et $r$ en paramètres pour faire le calcul.
 
