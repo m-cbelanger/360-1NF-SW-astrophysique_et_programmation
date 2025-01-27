@@ -234,7 +234,7 @@ def force_gravitationnelle2():
 print(f"La force est: {force_gravitationnelle2()} N")
 ```
 
-### [Exercices fonctions](03-Exercices_fonctions.md)
+### [Exercices fonctions](03_Exercices_fonctions.md)
 
 
 
