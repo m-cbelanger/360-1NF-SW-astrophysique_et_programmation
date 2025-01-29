@@ -167,3 +167,27 @@ else:
     print(f"l'année courante, {annee_courante} n'est pas bissextile")
 ```
 
+# 05-Listes
+
+
+```py
+# Corrigé exercices listes
+import numpy as np
+import scipy as sc
+
+#Question 1
+t = np.arange(0,10,0.1)
+
+gamma = 0.1
+
+def distance_oscillatoire(A, t, f):
+    return A * np.exp(-gamma*t)*np.cos(2*np.pi*f*t)
+
+
+A = float(input("Entrez une Amplitude: "))
+f = float(input("Entrez une fréquence: "))
+
+x = distance_oscillatoire(A,t,f)
+
+print(x)
+```
