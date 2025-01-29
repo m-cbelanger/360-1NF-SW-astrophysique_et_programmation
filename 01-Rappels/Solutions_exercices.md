@@ -173,7 +173,7 @@ else:
 ```py
 # Corrigé exercices listes
 import numpy as np
-import scipy as sc
+import scipy.constants as cst
 
 #Question 1
 t = np.arange(0,10,0.1)
@@ -190,4 +190,24 @@ f = float(input("Entrez une fréquence: "))
 x = distance_oscillatoire(A,t,f)
 
 print(x)
+
+# Question 2
+
+#Array vs listes
+# Array: tous les éléments sont de mêmes types
+# Liste: les éléments peuvent être de types divers
+
+mon_array = np.array([1,4.5,9,10])
+ma_liste = [1,4.5,9,10]
+ma_liste2 = ["a", 4, True, "b"] # pas possible en array
+
+# Les traitements faits sur les array se font sur chaque éléments, contrairement a une liste:
+
+print(2 * mon_array)
+print(2 * ma_liste)
+print(2 * ma_liste2)
+                
+# Array: meilleur pour les gros datasets
+# List: conteneur plus permisif
 ```
+
