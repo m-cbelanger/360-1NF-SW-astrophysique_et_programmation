@@ -211,3 +211,23 @@ print(2 * ma_liste2)
 # List: conteneur plus permisif
 ```
 
+# 06-Boucles
+
+```py
+# Question 1
+def factorielle(n):
+    valeur = 0
+    if not(isinstance(n,int)):
+        message = "La factorielle ne se calcule que sur un entier"
+    elif n < 0:
+        message = "La factorielle ne peut pas être calculée sur un nombre négatif"
+    elif n == 0:
+        valeur = 1
+        message = "La factorielle de 0 est 1, par convention"
+    else :
+        valeur = 1
+        for i in range(1,n+1):
+            valeur = valeur * i
+        message = ""
+    return(valeur, message)
+```
