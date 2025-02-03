@@ -492,9 +492,7 @@ print(f"La somme des nombres de 1 à {n} inclusivement est {somme + n}")
 
 Supposons que l'on s'intéresse à la position d'un objet en chute libre et qu'on veuille la hauteur de cet objet à chaque seconde. La formule physique qui correspond à ce besoin est:
 
-$
-h(t) = h_0-0.5gt^2
-$
+$ h(t) = h_0-0.5gt^2 $
 où 
 
 - $h(t)$ est la hauteur (en mètres)
