@@ -18,8 +18,7 @@ L'histogramme en question devrait ressembler à ceci:
 
 Fouillez pour comprendre comment accumuler la fréquence de chaque lettre, créer un graph. Voici quelques idées ou mots pour vous guider:
 - Automatiser le décompte du nombre de valeurs pour chaque lettre
-- plt.subplots()
-- ax.bar()
+- plt.bar(...)
 
 Trouvez un moyen de changer l'apparence du diagramme. Cherchez ensuite comment faire un histogramme plutôt qu'un diagramme à bandes.
 
