@@ -471,7 +471,7 @@ La fonction range() peut aussi avoir des paramètres spécifiés:
 ```py
 range([début], [fin], [saut])
 ```
-La fin du range est EXCLUT du calcul. Donc un range(1,5) sera en fait 4 répétitions: 1,2,3,4. 
+La fin du range est EXCLUS du calcul. Donc un range(1,5) sera en fait 4 répétitions: 1,2,3,4. 
 
 Combien de répétition fera-t-on dans range(5,18)?
 
@@ -484,7 +484,8 @@ somme = 0
 for i in range(1,n):
     somme += i
 
-print(f"La somme des nombres de 1 à {n} exclut est {somme}")
+print(f"La somme des nombres de 1 à {n} non inclus est {somme}")
+print(f"La somme des nombres de 1 à {n} inclusivement est {somme + n}")
 ```
 
 #### Exercice plus complexe (chute libre):
@@ -502,8 +503,8 @@ où
 - $t$ est le temps écoulé (en secondes)
 
 Pour résoudre cette demande, on doit écrire l'algorithme suivant dans Python:
-1. initialiser les valeurs connues et choisir une hauteur initiale
-2. calculer le temps nécessaire avant que l'objet ne touche le sol. Un peu d'algèbre ici
+1. Initialiser les valeurs connues et choisir une hauteur initiale
+2. Calculer le temps nécessaire avant que l'objet ne touche le sol. Un peu d'algèbre ici
 3. Faire une boucle qui parcoure tous les temps de 0 au temps d'atteinte au sol et calculer la hauteur pour chaque moment. Afficher la hauteur pour chaque moment dans une phrase. 
 
 Si on fait l'exercice en le testant pour 100 mètres, on obtient la sortie suivante:
@@ -568,7 +569,7 @@ mesure1 = 30
 mesure2 = 30
 
 while mesure1 <= mesure2:
-    mesure1 = mesure1/2
+    mesure1 = mesure1 / 2
     print(mesure1)
 ```
 
@@ -607,7 +608,7 @@ plt.xlabel('x')      #titre de l'axe des x
 plt.ylabel('f(x)')      #titre de l'axe des y
 plt.xticks([-10,-5,0,5,10])   #graduation de l'axe des x
 plt.yticks([-1000,-500,0,500,1000])   #graduation de l'axe des y
-plt.title('Graphique de la fonction $f(x) = x^3$')
+plt.title("Graphique de la fonction f(x) = x^3")
 
 # Ajout des axes plus foncés passant par (0,0)
 plt.axhline(0, color='black', linewidth=1.2)
@@ -681,12 +682,12 @@ x = np.linspace(0, 2*np.pi, 100)
 
 for k in np.arange(0, 1.1, 0.1):
     fx = np.sin(k*x)
-    plt.plot(x, fx, label=f"k = {np.round(k,2)}")
+    plt.plot(x, fx, label=f"k = {np.round(k,1)}")
 
 plt.xlabel("x")
 plt.ylabel("f(x)")
 
-plt.legend(ncols=2) #Nopmbre de colonnes de la légende
+plt.legend(ncols=2) #Nombre de colonnes de la légende
 plt.show()
 ```
 
