@@ -490,9 +490,7 @@ print(f"La somme des nombres de 1 à {n} inclusivement est {somme + n}")
 
 #### Exercice plus complexe (chute libre):
 
-Supposons que l'on s'intéresse à la position d'un objet en chute libre et qu'on veuille la hauteur de cet objet à chaque seconde. La formule physique qui correspond à ce besoin est:
-
-$ h(t) = h_0-0.5gt^2 $
+Supposons que l'on s'intéresse à la position d'un objet en chute libre et qu'on veuille la hauteur de cet objet à chaque seconde. La formule physique qui correspond à ce besoin est: $h(t) = h_0-0.5gt^2$
 où 
 
 - $h(t)$ est la hauteur (en mètres)
@@ -508,16 +506,30 @@ Pour résoudre cette demande, on doit écrire l'algorithme suivant dans Python:
 Si on fait l'exercice en le testant pour 100 mètres, on obtient la sortie suivante:
 
 ```py
-Temps 0 s: Hauteur = 100.00 mètres
-Temps 1 s: Hauteur = 95.10 mètres
-Temps 2 s: Hauteur = 80.40 mètres
-Temps 3 s: Hauteur = 64.80 mètres
-Temps 4 s: Hauteur = 48.30 mètres
-Temps 5 s: Hauteur = 30.90 mètres
-Temps 6 s: Hauteur = 12.60 mètres
-Temps 7 s: Hauteur = -6.80 mètres
+Temps: 0 s: Hauteur = 100.00 mètres
+Temps: 1 s: Hauteur = 95.10 mètres
+Temps: 2 s: Hauteur = 80.39 mètres
+Temps: 3 s: Hauteur = 55.87 mètres
+Temps: 4 s: Hauteur = 21.55 mètres
+Temps: 5 s: Hauteur = -22.58 mètres
 ```
 
+Solution (une des solutions):
+```py
+import scipy.constants as cst
+import numpy as np
+
+h0 = 100
+
+tmax = np.sqrt(-h0/(-0.5*cst.g))
+tmax = np.ceil(tmax)
+tmax = int(tmax)
+print(tmax)
+
+for i in range(0,tmax+1):
+    h = h0 - 0.5 * cst.g * i**2
+    print(f"Temps: {i} s: Hauteur = {h:.2f} mètres")
+```
 
 
 ### Boucles while
