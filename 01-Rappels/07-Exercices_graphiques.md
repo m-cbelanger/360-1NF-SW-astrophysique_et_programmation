@@ -26,7 +26,7 @@ Trouvez un moyen de changer l'apparence du diagramme. Cherchez ensuite comment f
 
 ## Question 3
 
-Faire le graphique 3D de la représentation d'une selle. La formule mathématique est $ Z=X^2-Y^2$
+Faire le graphique 3D de la représentation d'une selle. La formule mathématique est $Z=X^2-Y^2$
 
 ![selle](img/selle.png)
 
