@@ -307,8 +307,6 @@ def plus_petit_plus_grand():
 ```py
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-
 
 # Question 1
 
