@@ -600,7 +600,7 @@ Pour tracer des graphiques, la librairie matplotlib.pyplot demeure d'actualité.
 import matplotlib.pyplot as plt  
 ```
 
-Pour afficher un graph plusieurs éléments sont utiles pour afficher des relations (ou fonctions) avec les paramètres esthétiques désirés.
+Pour afficher un graphe, plusieurs éléments sont utiles pour afficher des relations (ou fonctions) avec les paramètres esthétiques désirés.
 
 ```py
 def f(x):
@@ -631,9 +631,9 @@ plt.show()  #la commande pour afficher le graph
 
 ### Exercices:
 
-1) Faire le graphe de la fonction $ h(x) = 2x^3+5x^2+8x-12 $ 
+1) Faire le graphe de la fonction $h(x) = 2x^3+5x^2+8x-12$ 
 
-2) Faire le graphe de la fonction $ g(x) = sin(2x-\pi) $
+2) Faire le graphe de la fonction $g(x) = sin(2x-\pi)$
 
 > note, pour faire le sin(x) dans la fonction à laquelle on passe une liste, utilisez np.sin()
 
