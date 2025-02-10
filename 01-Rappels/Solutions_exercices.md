@@ -254,7 +254,7 @@ def est_premier_plus_vite(n):
     if n < 2:
         return False
     else:
-        for i in range(2,math.sqrt(n)+1): # +1 parce que la dernière valeur est exclue
+        for i in range(2,math.ceil(math.sqrt(n))): # +1 parce que la dernière valeur est exclue
             if n % i == 0:
                 return False
         return True
