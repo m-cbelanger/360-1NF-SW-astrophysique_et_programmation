@@ -23,3 +23,11 @@ Fouillez pour comprendre comment accumuler la fréquence de chaque lettre, crée
 Trouvez un moyen de changer l'apparence du diagramme. Cherchez ensuite comment faire un histogramme plutôt qu'un diagramme à bandes.
 
 [Retour](01-Rappels.md#Les_graphiques)
+
+## Question 3
+
+Faire le graphique 3D de la représentation d'une selle. La formule mathématique est $ Z=X^2-Y^2$
+
+![selle](img/selle.png)
+
+Testez les paramètres, leur impact sur le résultat. Modifiez l'esthétisme

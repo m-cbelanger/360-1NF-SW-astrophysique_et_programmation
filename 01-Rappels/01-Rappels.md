@@ -705,7 +705,34 @@ Résultat:
 
 ![sinkx](img/sinkx.png)
 
+## Graphiques 3D
 
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+# création d'une grille de points
+x = np.linspace(-5, 5, 30)  
+y = np.linspace(-5, 5, 30)  
+X, Y = np.meshgrid(x, y)   
+Z = np.sin(np.sqrt(X**2 + Y**2))  
+
+# création de la figure et de l'axe 3D
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, projection='3d')
+
+# affichage de la surface, couleur inferno (il en existe des tonnes)
+ax.plot_surface(X, Y, Z, cmap='coolwarm')
+
+# étiquettes
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+ax.set_zlabel("Z")
+ax.set_title("Exemple de surface 3D")
+
+plt.show()
+```
 
 ### [Exercices graphiques](07-Exercices_graphiques.md)
 
