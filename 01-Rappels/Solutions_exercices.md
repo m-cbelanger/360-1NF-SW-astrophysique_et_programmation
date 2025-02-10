@@ -230,4 +230,186 @@ def factorielle(n):
             valeur = valeur * i
         message = ""
     return(valeur, message)
+
+
+# Question 2
+
+# Cet algorithme est un algorithme dit "de force brute" et n'est pas très efficace en rapidité
+def est_premier(n):
+    if n < 2:
+        return False
+    else:
+        for i in range(2,n):
+            if n % i == 0:
+                return False
+        return True
+
+#ce test prend quelques secondes/minutes à réaliser!
+#print(est_premier(1000000007))
+
+# une façon d'accélérer l'algorithme est de faire la boucle jusqu'à racine de n,
+# puisque les autres vérifications sont inutiles
+import math
+def est_premier_plus_vite(n):
+    if n < 2:
+        return False
+    else:
+        for i in range(2,math.sqrt(n)+1): # +1 parce que la dernière valeur est exclue
+            if n % i == 0:
+                return False
+        return True
+
+#Question 3
+    
+def plus_petit_plus_grand():
+    i = 1
+    while i <= 3 :
+        try:
+            nombre = float(input("Entrez un nombre: "))
+            if nombre < 100:
+                print("le nombre est plus petit que 100")
+            elif nombre > 100:
+                print("le nombre est plus grand que 100")
+            else:
+                print("le nombre est plus égale à 100")
+                
+            i += 1
+              
+        except ValueError:
+            print("Vous devez entrer un nombre!")
+                    
+#plus_petit_plus_grand()
+
+# Question 4
+# Boucle 1
+# La boucle continuera à l'infini ou jusqu'à l'atteinte de la valeur max de la capacité de la variable.
+
+# Boucle 2
+# On n'entrera jamais dans la boucle puisque 0 n'est pas plus grand que 0. La valeur finale de i est donc 0
+
+# Boucle 3
+# Boucle infinie, puisqu'un nombre est toujours plus grand que 0 OU plus petit que 10. Pour avoir les nombres entre 0 et 10,
+# il faudrait mettre un and
+
+# Boucle 4
+# Il y a un and, mais un nombre ne peut pas être plus grand que 10 ET plus petit que 0 en même temps. On n'entre donc pas
+# dans la boucle
+
+# Boucle 5
+# x démarre a 10 et incrémente, donc sera toujours plus grand que 0, boucle infinie.
+
+# Boucle 6
+# le "n" vaudra tour à tour 1-3-5-7-9-11, etc. ce qui est toujours différent de 10. Boucle infinie!
+```
+
+# 06-Graphiques
+
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+
+# Question 1
+
+def sinus(x):
+    return np.sin(x)
+
+x = np.linspace(-2, 2, 100)
+y1 = sinus(x)
+y2 = x
+
+# Personnaliser les lignes (couleur, pointillés, épaisseur, etc)
+#a)
+plt.figure()
+plt.plot(x,y1)
+plt.plot(x,y2)
+plt.show()
+
+# b)
+plt.figure()
+plt.plot(x,y1)
+plt.plot(x,y2)
+plt.xlim(-0.5,0.5)
+plt.show()
+
+#c)
+def cosinus(x):
+    return np.cos(x)
+
+def approx(x):
+    return 1 - x**2/2
+
+yb1 = cosinus(x)
+yb2 = approx(x)
+
+
+fig, axes = plt.subplots(4,1, figsize=(6,9))
+axes[0].set_title("approx de sinus")
+axes[0].set_xlim(-2,2)
+axes[0].plot(x,yb1)
+axes[0].plot(x,yb2)
+
+axes[1].set_title("approx de sinus")
+axes[1].set_xlim(-0.5,0.5)
+axes[1].plot(x,yb1)
+axes[1].plot(x,yb2)
+
+axes[2].set_title("approx de cosinus")
+axes[2].set_xlim(-2,2)
+axes[2].plot(x,yb1)
+axes[2].plot(x,yb2)
+
+axes[3].set_title("approx de cosinus")
+axes[3].set_xlim(-0.5,0.5)
+axes[3].plot(x,yb1)
+axes[3].plot(x,yb2)
+
+plt.tight_layout()
+plt.show()
+
+
+
+
+# Question 2
+sequence = "ACGATCATAGCGAGCTAAATCGGTACACTTGTCA"
+
+bases = ["A", "C", "G", "T"]
+distribution = []
+for base in bases:
+    distribution.append(sequence.count(base))
+
+x = np.arange(len(bases))
+
+plt.bar(x, distribution)  
+plt.xticks(x, bases)  
+plt.xlabel("Bases")  
+plt.ylabel("Nombre")  
+plt.title(f"Distribution des bases \n dans la séquence {sequence}")  
+
+plt.show()
+
+
+
+#Question 3
+
+
+x = np.linspace(-5, 5, 50)  
+y = np.linspace(-5, 5, 50)  
+X, Y = np.meshgrid(x, y)   
+Z = X**2 - Y**2
+
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, projection='3d')
+
+ax.plot_surface(X, Y, Z, cmap='coolwarm')
+
+ax.set_xlabel("X")
+ax.set_ylabel("Y")
+ax.set_zlabel("Z")
+ax.set_title("Selle de cheval")
+
+plt.show()
+
+
 ```
