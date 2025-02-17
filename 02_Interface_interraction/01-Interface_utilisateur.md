@@ -19,9 +19,9 @@ On peut modifier la fenêtre:
 ```py
 import tkinter as tk
 
-root = tk.Tk()
-root.title("Ceci est un exemple")
-root.geometry("600x700")
+fenetre = tk.Tk()
+fenetre.title("Ceci est un exemple")
+fenetre.geometry("600x700")
 
 root.mainloop() 
 ```
