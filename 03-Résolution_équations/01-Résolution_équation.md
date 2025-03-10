@@ -21,7 +21,7 @@ print(sol[0].evalf(), sol[1].evalf())
 
 ## Calcul symbolique
 
-Cette méthode devient très utile pour des équation qui n'ont pas de solution algébrique comme $cos(x) - 5sin(x) - 1=0$
+Cette méthode devient très utile pour des équations qui n'ont pas de solution algébrique comme $cos(x) - 5sin(x) - 1=0$
 
 ```py
 x = sp.symbols("x")
@@ -47,11 +47,11 @@ Il existe plein de méthodes numériques pour plusieurs classes d'équations.
 
 Méthode numérique qui permet de trouver les racines d'une fonction continue et dérivable avec un point de départ choisit à tâtons, près d'un zéro. L'idée est la suivante:
 
-- On cherche le moment où l'équation de la droite tangente à la courbe croise l'axe des x 
+- On cherche le moment où l'équation de la droite tangente à la courbe croise l'axe des x en s'approchant itérativement. 
 
+![courbe](img/tangente.png)
 
-
-Si on décortique l'équation d'une droite, on débute avec ceci: $y=ax+b$
+Si on décortique l'équation d'une droite, on débute avec ceci: $y=ax+b$ ou bien $y=mx+b$
 
 La pente de la tangente étant la dérivée de la fonction $f(x)=x^2-3x-10$ en bleu, on en déduit que l'équation de la droite tangente au point $(x_0,f(x_0))$ est 
 
@@ -72,11 +72,11 @@ Globalement,
 $x_{n+1} = x_n - f(x_n)/f'(x_n) $
 
 En mots:
-- On choisit un $x_n$ proche de la racine (zéro) choisie
+- On choisit un $x_n$ relativement proche de la racine (zéro) choisie
 - En appliquant la formule ci-haut, on obtient la valeur où la tangente croise l'axe des x (le zéro de la tangente), qu'on stocke dans $x_{n+1}$
 - Avec la nouvelle valeur de x ($x_{n+1}$), on redessine une tangente et on recalcule le nouveau la valeur où la tangente croise l'axe des x (le zéro de la tangente). Ce sera ($x_{n+2}$)... et ainsi de suite
 
-![courbe](img/tangente.png)
+
 
 
 ## Le code de la Méthode de Newton
