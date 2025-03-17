@@ -12,7 +12,7 @@ print(expr)  # Affiche : 2*x + 3
 Voici un exemple simple où l'utilisateur entre une équation dans un champ de texte (Entry), et lorsqu'il appuie sur un bouton, l'équation est convertie avec sympify et affichée :
 ```py
 import tkinter as tk
-from sympy import sympify, Symbol
+from sympy import sympify, symbols
 
 def evaluer_equation():
     """Convertit le texte entré en une expression SymPy et l'affiche."""
