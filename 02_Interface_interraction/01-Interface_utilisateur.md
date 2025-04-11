@@ -9,9 +9,9 @@ Au départ, il faut importer la librairie (et l'installer si nécessaire). Ensui
 ```py
 import tkinter as tk
 
-root = tk.Tk()  # root est une instance de l'objet de la classe Tk (le conteneur)
+fenetre = tk.Tk()  # root est une instance de l'objet de la classe Tk (le conteneur)
 
-root.mainloop()  # boucle infinie qui attend les événements pour y réagir (tant que la fenêtre est ouverte)
+fenetre.mainloop()  # boucle infinie qui attend les événements pour y réagir (tant que la fenêtre est ouverte)
 ```
 
 On peut modifier la fenêtre:
@@ -23,7 +23,7 @@ fenetre = tk.Tk()
 fenetre.title("Ceci est un exemple")
 fenetre.geometry("600x700")
 
-root.mainloop() 
+fenetre.mainloop() 
 ```
 
 ## Ajout de wigdet à l'intérieur de la fenêtre
