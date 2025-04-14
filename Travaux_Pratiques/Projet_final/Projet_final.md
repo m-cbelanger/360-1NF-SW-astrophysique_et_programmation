@@ -47,7 +47,7 @@ $$
 L'anomalie moyenne est utile car elle peut être calculée trivialement à partir de $t$, et évolue linéairement avec celui-ci. À son tour, l'anomalie moyenne permet de calculer l'__anomalie excentrique__, $E$, en solutionnant l'__équation de Kepler__,
 
 $$
-M = E - e \sin{E} \quad\quad \text{(5)}
+M = E - e\cdot \sin{E} \quad\quad \text{(5)}
 $$
 
 
@@ -56,7 +56,7 @@ $$
 Enfin, avec la valeur de $E(t)$, il est possible de calculer la position de la planète au temps $t$ avec les équations suivantes,
 
 $$
-r = a(1 - e \cos E) \quad\quad \text{(6a)}
+r = a(1 - e\cdot \cos E) \quad\quad \text{(6a)}
 $$
 
 $$
@@ -68,11 +68,11 @@ où $\arg(x,y)$ est une fonction qui retourne l'angle polaire du vecteur de comp
 En coordonnées cartésiennes, la position de la planète est donnée par,
 
 $$
-x' = r \cos{\theta} \quad\quad \text{(7a)}
+x' = r\cdot \cos{\theta} \quad\quad \text{(7a)}
 $$
 
 $$
-y' = r \sin{\theta} \quad\quad \text{(7b)}
+y' = r\cdot \sin{\theta} \quad\quad \text{(7b)}
 $$
 
 
