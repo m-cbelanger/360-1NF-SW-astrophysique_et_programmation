@@ -184,4 +184,13 @@ Interface: Dans le module main() (ou dans un module à part si désiré).
 
 - Faire une interface qui utilise une image cliquable pour faire un choix. Les images choisies peuvent être n'importe lesquelles, pourvu qu'il soit écrit quelque part quelle animation est sélectionnée. 
 
-- Ce clic mènera vers un **formulaire** pour moduler les différentes valeurs de $a$ et de $e$ de l'animation 1, les valeur de $e$, $i$, $Omega$ et $omega$ de l'animation 2 ainsi que les valeurs de $a$, $e$ et $i$ de l'animation 3. 
+- Ce clic mènera vers un **formulaire** pour moduler les différentes valeurs de $a$ et de $e$ de l'animation 1, les valeur de $e$, $i$, $Omega$ et $omega$ de l'animation 2 ainsi que les valeurs de $a$, $e$ et $i$ de l'animation 3. Les *slider* sont une option à considérer, sinon des *entry* peuvent aussi faire l'affaire. Il faudra alors gérer les erreurs d'entrée.
+
+Exemple:
+
+![image](img/formulaire.png)
+# Spécifications toutes les parties
+
+- il doit y avoir au moins un try... except pertinent dans le code modifié, le main ou l'interface.
+- les variables doivent suivre les conventions du document explicatif. 
+- le style est les couleurs de la fenêtre, des boutons, des contours est laissé à votre discrétion.
