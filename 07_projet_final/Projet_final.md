@@ -30,14 +30,14 @@ M = 2\pi \frac{t - T_0}{P} \quad\quad \text{(2)}
 $$
 
 
-où $P$ est la période orbitale et $T_0$ est un temps de référence auquel l'anomalie moyenne (et vraie) est 0. La période orbitale $P$ est reliée au demi-grand axe $a$ de l'orbite par la __3$^e$ loi de Kepler__,
+où $P$ est la période orbitale et $T_0$ est un temps de référence auquel l'anomalie moyenne (et vraie) est 0. La période orbitale $P$ est reliée au demi-grand axe $a$ de l'orbite par la __3e loi de Kepler__,
 
 $$
 P^2 = \frac{4\pi^2}{G} \frac{a^3}{M_\star} \quad\quad \text{(3)}
 $$
 
 
-où $G$ est la constante gravitationnelle et $M_\star$ est la masse de l'étoile. Pour simplifier un peu les choses, nous exprimerons toutes les distances en unité astronomique (abréviation UA; 1 UA $=1.49597892 \times 10^{11}$ m, soit la distance moyenne Terre--Soleil), les temps en années terrestres, et la masse de l'étoile en masse solaire (symbole $M_\odot$; 1 $M_\odot=1.989\times 10^{30}$ kg). Lorsque $P$, $a$ et $M_\star$ sont exprimés selon ces unités, la 3$^e$ loi de Kepler se simplifie à,
+où $G$ est la constante gravitationnelle et $M_\star$ est la masse de l'étoile. Pour simplifier un peu les choses, nous exprimerons toutes les distances en unité astronomique (abréviation UA; 1 UA $=1.49597892 \times 10^{11}$ m, soit la distance moyenne Terre--Soleil), les temps en années terrestres, et la masse de l'étoile en masse solaire (symbole $M_\odot$; 1 $M_\odot=1.989\times 10^{30}$ kg). Lorsque $P$, $a$ et $M_\star$ sont exprimés selon ces unités, la 3e loi de Kepler se simplifie à,
 
 $$
 P^2 = \frac{a^3}{M_\star} \quad\quad \text{(4)}
@@ -76,7 +76,7 @@ y' = r \sin{\theta} \quad\quad \text{(7b)}
 $$
 
 
-# Tâche à faire:
+# Travail à faire:
 # Partie 1
 - À partir des formules et explications ci-haut, compléter le fichier Python, là où vous voyez une lettre entre parenthèses suivi de la mention À COMPLÉTER en commentaire. 
 
