@@ -189,3 +189,10 @@ La NASA explique et vulgarise très bien le détails des missions et leurs déve
 - Photos de la mission Hubble (35 ans en images): https://science.nasa.gov/mission/hubble/hubble-news/hubble-social-media/35-years-of-hubble-images/
 
 - La mission James Web: https://science.nasa.gov/mission/webb/ 
+
+
+# Atelier Thomas Vandal
+
+Pour faire ou refaire l'atelier du 8 avril 2025 avec Thomas, suivre les étapes complétées ci-dessous:
+
+ https://github.com/vandalt/atelier-astro-cegep 
