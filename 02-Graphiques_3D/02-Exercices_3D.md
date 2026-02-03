@@ -54,6 +54,6 @@ d) Quelle est la valeur de Z pour le carré jaune?
 
 e) Trouver comment changer la palette de couleur.
 
-f) Quels sont les paramètres possibles de 
+f) Quels sont les paramètres  possibles plt.contour? Citez la référence utilisée pour répondre.
 
 
