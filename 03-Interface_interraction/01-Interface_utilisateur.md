@@ -9,7 +9,7 @@ Au départ, il faut importer la librairie (et l'installer si nécessaire). Ensui
 ```py
 import tkinter as tk
 
-fenetre = tk.Tk()  # root est une instance de l'objet de la classe Tk (le conteneur)
+fenetre = tk.Tk()  # fenetre est une instance de l'objet de la classe Tk (le conteneur)
 
 fenetre.mainloop()  # boucle infinie qui attend les événements pour y réagir (tant que la fenêtre est ouverte)
 ```
