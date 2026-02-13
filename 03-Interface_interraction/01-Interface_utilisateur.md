@@ -147,7 +147,7 @@ un_bouton.pack()
 fenetre.mainloop() 
 ```
 
-## le widget Entry (plage d'entrée de formulaire)
+## Le widget Entry (plage d'entrée de formulaire)
 
 Le widget Entry permet à l’utilisateur d’entrer du texte à l’aide du clavier.
 
