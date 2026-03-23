@@ -60,7 +60,7 @@ r = a(1 - e\cdot \cos E) \quad\quad \text{(6a)}
 $$
 
 $$
-\theta = 2 \arg\left( \sqrt{(1-e)} \cos{\frac{E}{2}}, \sqrt{(1+e)} \sin{\frac{E}{2}} \right) \quad\quad \text{(6b)}
+\theta = 2 \arg\left( \sqrt{(1-e)} \cos{(\frac{E}{2})}, \sqrt{(1+e)} \sin{(\frac{E}{2})} \right) \quad\quad \text{(6b)}
 $$
 
 où $\arg(x,y)$ est une fonction qui retourne l'angle polaire du vecteur de composante $(x,y)$.
