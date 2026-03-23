@@ -12,7 +12,7 @@ $$
 où
 $a$ est le __demi-grand axe__ de l'ellipse (la moitié du plus grand diamètre) et $e$ est l'__excentricité__ de l'ellipse (qui indique à quel point l'ellipse est "aplatie"). La figure suivante illustre schématiquement l'orbite et les diverses quantités introduites.
 
-![orbite](img/schemaOrbite.png)
+![orbite](img/orbite.png)
 
 [source](https://www.astro.umontreal.ca/) 
 
