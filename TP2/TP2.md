@@ -123,9 +123,9 @@ AUCUN AUTRE code à changer dans ce programme pour qu'il fonction à ce point-ci
 
 Pour vérifier que ça fonctionne, vous devriez voir tour à tour les images animées semblables à ceci:
 
-![img1](img/image1.png)
+![img1](img/img1.png)
 
-![img1](img/image2.png)
+![img2](img/img2.png)
 
 
 
@@ -156,7 +156,7 @@ Séparer le fichier initial en minimalement 3 modules distincts:
 
 Vous devez vous assurer que le code fonctionne quand on déplace la section d'appel des animations du fichier initial dans le module main()
 
-![image5](img/image5.png)
+
 
 # Partie 3
 
@@ -167,7 +167,7 @@ Interface:
  $a$ et de $e$ de l'animation 1 ainsi que les valeurs de $e$, $i$, $Omega$ et $omega$ de l'animation 2. Les formulaires avec *slider* sont une option à considérer, sinon des *entry* peuvent aussi faire l'affaire. Il faudra alors gérer les erreurs d'entrée.
  Exemple:
 
-![image](formulaire.png)
+![image5](img/formulaire.png)
 
 
 # Spécifications toutes les parties
