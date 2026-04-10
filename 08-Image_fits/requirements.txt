@@ -1,0 +1,9 @@
+numpy
+matplotlib
+astropy
+astroquery
+google-oauth
+photutils
+requests-oauthlib
+asdf
+asdf-astropy
