@@ -9,8 +9,8 @@ def effacer_tout(form1, form2,form3,form4,label1,y_min,y_max):
     label1.config(text = "")
     y_min.delete(0, tk.END)
     y_max.delete(0, tk.END)
-    y_min.insert(-10,"-10")
-    y_max.insert(10,"10")
+    y_min.insert(0,"-10")
+    y_max.insert(0,"10")
 
 
 
