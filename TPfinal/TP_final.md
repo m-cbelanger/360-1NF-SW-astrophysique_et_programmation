@@ -46,7 +46,4 @@ Les fonctions suivantes seront testées:
 """
 ```
 
-# Plan pour préparer ce travail.
-
-Pour réussir un petit projet informatique, il est essentiel de bien faire le plan. Plusieurs sections sont décelables dans ce projet, ils constituent donc l'occasion de faire des modules.
 
